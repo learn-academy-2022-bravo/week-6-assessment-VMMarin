@@ -33,6 +33,11 @@ describe("capitalizerArr",() => {
 
 // b) Create the function that makes the test pass.
 
+// Create a function capitalizeArr 
+//  Map through array 
+// Split array and capitalize (toUpperCase) 
+// return split and capitalized array as a sentence using string interpolation
+
 const capitalizeArr = (arr) => {
   return arr.map(value => {
     let splitArray = value.name.split(' ')

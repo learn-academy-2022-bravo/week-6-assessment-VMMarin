@@ -59,7 +59,7 @@ class BlogPostsController < ApplicationController
     end
   end
 
-  # ---9)anything under privat ewill not be visible to user
+  # ---9)anything under private will not be visible to user
   private
   def blog_post_params
     # ---10) we're saying here that the paramters required to create a blog post are :title, :content
